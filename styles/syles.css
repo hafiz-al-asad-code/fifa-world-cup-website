@@ -59,10 +59,11 @@
   /* banner */
   .banner{
     flex-direction:column;
-    margin-top:10px;
-    margin-left:10px;
-    margin-right:10px;
+    margin-top:44px;
+    margin-left:20px;
+    margin-right:20px;
     text-align: center;
+    border-radius:10px;
   }
   .banner-left{
     padding-left:0;
@@ -80,5 +81,9 @@
   }
   .banner-right{
     margin-top:40px;
+  }
+  .banner-right img{
+    padding-left: 63px;
+    padding-right: 38px;
   }
 }
