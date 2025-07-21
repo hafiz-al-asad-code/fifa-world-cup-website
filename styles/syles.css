@@ -52,3 +52,33 @@
 .banner-right img{
   width:100%;
 }
+
+/* responsive media query */
+/* for mobile */
+@media screen and (max-width:576px){
+  /* banner */
+  .banner{
+    flex-direction:column;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align: center;
+  }
+  .banner-left{
+    padding-left:0;
+    padding-top:30px;
+  }
+  .banner-title{
+    font-size:3.125rem;
+    font-weight:600;
+    line-height:50px;
+  }
+  .banner-subtitle{
+    text-align:center;
+    padding-left:50px;
+    padding-right:50px;
+  }
+  .banner-right{
+    margin-top:40px;
+  }
+}
