@@ -127,6 +127,42 @@
   display: none;
 }
 
+/* footer styles */
+footer{
+  background-color:black;
+  text-align: center;
+}
+footer h3{
+  font-size:40px;
+  font-weight:600;
+  color:rgb(255, 255, 255);
+  /* margin-top:130px;
+  margin-bottom:50px; */
+  padding-top:130px;
+  padding-bottom:50px;
+}
+footer hr{
+  max-width:1420px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* display:flex; */
+  margin-left:auto;
+  margin-right:auto;
+}
+footer li{
+  font-weight:500;
+}
+footer a{
+  text-decoration:none;
+  color:rgb(185, 185, 185);
+}
+footer ul{
+  display:flex;
+  padding-bottom:130px;
+  padding-top:50px;
+  justify-content: center;
+  gap:60px;
+}
+
 /* responsive media query */
 
 /* for mobile */
