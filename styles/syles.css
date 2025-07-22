@@ -162,6 +162,7 @@
   .upcoming-matches {
     flex-direction: column;
     gap:24px;
+    margin-bottom:24px;
   }
   .upcoming-matches-left {
     padding: 0;
@@ -173,6 +174,8 @@
   }
   .upcoming-matches-left .btn{
     padding:15px 0;
+    border:1px solid #E8E8E8;
+    background-color: transparent;
   }
   .upcoming-matches-left .btn:nth-child(2),
   .upcoming-matches-left .btn:nth-child(3){
@@ -181,6 +184,9 @@
   }
   .upcoming-matches-right {
     grid-template-columns: repeat(1, 1fr);
+    row-gap:16px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
