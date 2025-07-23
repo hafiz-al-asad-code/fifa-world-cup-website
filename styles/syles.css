@@ -58,6 +58,7 @@
   padding-left: 20px;
   padding-bottom: 20px;
 }
+
 /* upcoming match related styles */
 .upcoming-matches {
   display: flex;
@@ -142,7 +143,6 @@ footer h3 {
 footer hr {
   max-width: 1420px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  /* display:flex; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -334,5 +334,19 @@ footer ul {
     display: flex;
     justify-content: center;
     margin-bottom: 70px;
+  }
+
+  /* footer */
+  footer h3 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  footer ul {
+    flex-wrap: wrap;
+    line-height: 0px;
+    padding-bottom: 70px;
+  }
+  footer hr {
+    max-width: 700px;
   }
 }
